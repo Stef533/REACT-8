@@ -1,12 +1,14 @@
-import Welcome from './Welcome';
+import Age from './Age';
 
-function App() {
+const App = () => {
+  const ageValue = 25;
+
   return (
     <div>
-      <h1>Ciao Mondo!</h1>
-      <Welcome name="John" age={22} />
+      <h1>User Information</h1>
+      <Age age={ageValue} />
     </div>
   );
-}
+};
 
 export default App;
