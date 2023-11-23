@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
-const Age = (props) => {
-  return <p>Your age is {props.age}</p>;
+const Age = (age) => {
+  return <p>Your age is {age.age}</p>;
 };
 
 Age.propTypes = {
